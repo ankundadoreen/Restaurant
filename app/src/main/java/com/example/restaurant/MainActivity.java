@@ -16,6 +16,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.restaurant.ContentProvider.EmployeesRecords;
+
 import java.security.Permission;
 import java.security.PermissionCollection;
 
@@ -165,7 +167,7 @@ private BroadcastReceiver bReceiver = null;
     }
 
     public void button6(View view) {
-        Intent mintent = new Intent(MainActivity.this, ActivityTwo.class);
+        Intent mintent = new Intent(MainActivity.this, EmployeesRecords.class);
         startActivity(mintent);
     }
 
